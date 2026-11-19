@@ -1,0 +1,45 @@
+Eres un experto en Python y en preparación de exámenes prácticos. Te adjunto los documentos del temario de mi asignatura de Python. Quiero que generes UN ÚNICO ARCHIVO "Chuleta_Python.py" de apuntes para copiar y pegar durante la preparación del examen.
+
+CONTEXTO
+- Vengo de programar en Java, así que cuando ayude, compara con Java.
+- El examen es práctico (escribir código). Quiero saber TODO lo que puedo usar y también algunas estructuras complejas, no ejemplos sueltos de relleno.
+- Lo que no esté en los documentos pero pueda entrar en el examen, añádelo, pero márcalo con la etiqueta "(EXTRA, no aparece en el temario)" para que sepa qué es de más.
+
+FUENTES
+- Basa el contenido en los documentos adjuntos: sus temas, sus ejercicios y su nivel.
+- Si encuentras errores en los documentos (erratas, sintaxis mal convertida, código que no funciona, incoherencias), no los copies. Usa la versión correcta y avísame al final del mensaje con la lista de errores encontrados.
+- Si algún documento no te llega o no puedes leerlo, dímelo antes de empezar.
+
+FORMATO DEL ARCHIVO
+1. Todo el archivo debe ser Python válido, que no rompa al ejecutarlo ni al importarlo. Cada sección va dentro de una cadena triple (""" ... """) o en líneas con #. No uses comillas triples dentro de otra cadena triple.
+2. Cabecera con el título y una explicación breve de cómo usar el archivo.
+3. Índice corto de las secciones.
+4. ÍNDICE DETALLADO: describe qué incluye cada sección y cada estructura compleja, SIN ninguna línea de código. Debe servirme para saber qué existe aunque no recuerde el nombre.
+5. Cada sección numerada y con este orden de contenidos:
+   - Imports y librerías habituales
+   - Sintaxis básica y tipos (variables, tipado dinámico, operadores, f-strings, conversión de tipos)
+   - Control de flujo (if, bucles, match si aplica, range, break/continue)
+   - Funciones (parámetros por defecto, *args, **kwargs, lambdas, retorno múltiple, recursividad)
+   - Colecciones (listas, tuplas, diccionarios, conjuntos, comprensiones) con todos sus métodos útiles
+   - Cadenas y sus métodos
+   - Entrada/salida y ficheros (si está en el temario)
+   - Clases y POO (constructores, herencia, métodos especiales, encapsulación), con comparación con Java
+   - Excepciones (try/except/finally/raise)
+   - Módulos y librerías propias del temario
+   - Cualquier otro tema que aparezca en los documentos, siguiendo su orden
+   - Estructuras complejas / patrones de examen: pantallas o programas completos, funciones que combinan varias cosas, algoritmos típicos
+   - Errores típicos y checklist final
+6. Cada bloque debe empezar con una línea "# ETIQUETAS: ..." con muchos sinónimos y nombres alternativos en español e inglés (por ejemplo: "bucle, loop, for, while, recorrer, iterar"). Así podré encontrarlo con Ctrl+F aunque no recuerde el nombre exacto. También debe haber una etiqueta en cada cabecera de sección.
+7. Lista TODAS las funciones, métodos y opciones disponibles de cada tema (con una nota breve de qué hacen o cuándo se usan), no solo las más típicas. Prefiero plantillas y estructuras con comentarios a ejemplos con valores concretos, salvo en las estructuras complejas, donde sí quiero código completo y adaptable.
+8. Incluye comentarios con las reglas y trampas importantes (diferencias con Java, errores de indentación, mutabilidad, valores por defecto mutables, copia superficial/profunda, etc.).
+9. Idioma: español para los comentarios; el código, nombres y palabras reservadas, como son en Python.
+
+ENTREGA
+- Crea el archivo en formato .py y compártelo para descargar. No me lo pegues entero en el chat.
+- En el mensaje solo quiero: un resumen breve de qué incluye, qué has añadido como EXTRA, y la lista de errores que has encontrado en mis documentos.
+- Antes de entregarlo, comprueba que el archivo se puede ejecutar sin errores de sintaxis.
+
+Si necesitas aclarar algo del temario antes de empezar, pregúntamelo (máximo una pregunta).
+
+y aqui estan loes ejercicios de clase:
+https://github.com/crodpar637/Python_26_27
